@@ -8,11 +8,10 @@ Branches
 
 This repository has multiple tags that relate to CentOS versions.
 
-|CentOS Version|Docker image tag   |
-|--------------|-------------------|
-|7             |7                  |
-|8             |8, stream8         |
-|9             |9, stream9, latest |
+|CentOS Version|Docker image tag      |
+|--------------|----------------------|
+| 9            | 9, stream9           |
+| 10           | 10, stream10, latest |
 
 Manually starting
 -----------------
