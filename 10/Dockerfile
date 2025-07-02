@@ -1,4 +1,4 @@
-FROM quay.io/centos/centos:stream9
+FROM quay.io/centos/centos:stream10
 
 LABEL maintainer="mullholland"
 LABEL build_date="2025-07-02"
