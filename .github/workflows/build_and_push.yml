@@ -18,22 +18,18 @@ jobs:
     strategy:
       matrix:
         include:
-          - context: 7
-            tags: |
-              ${{ github.repository }}:7
-              ghcr.io/${{ github.repository }}:7
-          - context: 8
-            tags: |
-              ${{ github.repository }}:8
-              ghcr.io/${{ github.repository }}:8
-              ${{ github.repository }}:stream8
-              ghcr.io/${{ github.repository }}:stream8
           - context: 9
             tags: |
               ${{ github.repository }}:9
               ghcr.io/${{ github.repository }}:9
               ${{ github.repository }}:stream9
               ghcr.io/${{ github.repository }}:stream9
+          - context: 10
+            tags: |
+              ${{ github.repository }}:10
+              ghcr.io/${{ github.repository }}:10
+              ${{ github.repository }}:stream10
+              ghcr.io/${{ github.repository }}:stream10
               ${{ github.repository }}:latest
               ghcr.io/${{ github.repository }}:latest
     steps:
