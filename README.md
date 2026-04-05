@@ -1,3 +1,5 @@
+CentOS Linux has been discontinued and is not safe to use anymore. [Read the information on upgrade and migration options](https://blog.centos.org/2023/04/end-dates-are-coming-for-centos-stream-8-and-centos-linux-7/).
+
 Docker CentOS Systemd
 =====================
 
